@@ -1,2 +1,5 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable init_cell/main
+
+# Trust notebooks that auto-run code (init cells, etc.)
+jupyter trust Test.ipynb
