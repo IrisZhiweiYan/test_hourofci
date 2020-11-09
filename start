@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Trust notebooks that auto-run code (init cells, etc.)
+jupyter trust Test.ipynb
+
+exec "$@"
